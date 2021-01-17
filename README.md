@@ -16,7 +16,7 @@
 
 ### Установка:
 
-Клонировать [репозиторий](https://github.com/InInferno/weather-react-redux.git)
+Клонировать [репозиторий](https://github.com/InInferno/simple-flight-check)
 
 Установить пакеты
 
