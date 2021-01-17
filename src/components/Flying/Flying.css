@@ -1,0 +1,331 @@
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SFProDisplay-Regular'), url('../../fonts/SFProDisplay-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    src: local('SFProDisplay-Medium'), url('../../fonts/SFProDisplay-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    src: local('SFProDisplay-Light'), url('../../fonts/SFProDisplay-Light.woff') format('woff');
+}
+
+.page-flights-bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../images/wing.jpg');
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: overlay;
+    filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+.logout {
+    position: absolute;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+    color: #1157A7;
+    top: 26px;
+    right: 31px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout:hover {
+    cursor: pointer;
+}
+
+.icon-logout {
+    width: 18px;
+    height: 18px;
+    margin-left: 20px;
+}
+
+.page-flights {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flights {
+    width: 680px;
+    height: 895px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin: 65px 0px 0 40px;
+}
+
+.info__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: #424242;
+    margin: 0;
+}
+
+.info__icon-arrow {
+    width: 8.67px;
+    height: 17.33px;
+    margin: 5px 20px 0 21px;
+}
+
+.info__date-input {
+    width: 200px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 22px;
+    color: #1157A7;
+    margin: 0 0 1px 75px;
+    border: none;
+
+}
+
+::-webkit-calendar-picker-indicator {
+    /* filter: invert(1); */
+    background-image: url('../../images/calendar.svg');
+}
+
+.info__date-input:hover {
+    border: 1px solid #ccc;
+    padding: 0;
+}
+
+/* .info__date {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 22px;
+    color: #1157A7;
+    margin: 0 0 1px 75px;
+}
+
+.info__icon-calendar {
+    width: 18px;
+    height: 20px;
+    margin-left: 15px;
+} */
+
+.images {
+    width: 600px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 12px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 24px;
+}
+
+
+
+.images__image {
+    width: 164px;
+    height: 149px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.favorites {
+    width: 100%;
+    display: flex;
+    margin: 32px 0 0 50px;
+}
+
+.favorites__text {
+    display: flex;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 22px;
+    color: #424242;
+    margin: 0;
+}
+
+.favorites__num {
+    color: #1157A7;
+    margin: 0;
+}
+
+.preloader {
+	display: block;
+  width: 74px;
+  height: 74px;
+  border: 1px solid #444;
+  border-bottom-color: #888;
+  border-radius: 50%;
+  animation: spin .75s infinite linear;
+  margin: 79px 0px 22px 16px
+}
+
+@keyframes spin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.error-block {
+    display: flex;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 22px;
+    color: red;
+    margin: 20px 0 0 20px;
+}
+
+.cards {
+    width: 598px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 0 42px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.cards__text-clear {
+    display: flex;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 22px;
+    color: #424242;
+    margin: 20px 0 0 20px;
+}
+
+.card {
+    width: 95%;
+    display: flex;
+    margin: 21px 0 0px 18px;
+    border-bottom: 1px solid rgba(135, 135, 135, 0.2);
+    padding-bottom: 15px;
+}
+
+.cards::-webkit-scrollbar{
+    width: 2px;
+}
+    
+.cards::-webkit-scrollbar-track {
+    background-color:#E7E7E7;;
+}
+    
+.cards::-webkit-scrollbar-thumb {
+    background-color:#1157A7;
+}
+    
+.cards::-webkit-scrollbar-thumb:hover{
+    opacity: .8;
+}
+
+.card__elipse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    background: rgba(0, 119, 255, 0.05);
+    border-radius: 50%;
+}
+
+.card__plane {
+    width: 35px;
+    height: 35px;
+}
+
+.card__item-data {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 24px;
+}
+
+.card__cities {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 22px;
+    color: #424242;
+    margin: 0;
+}
+
+.card__icon-arrow-right {
+    width: 13px;
+    height: 9px;
+    margin: 0px 12px 0 16px;
+}
+
+.card__time {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #878787;
+    margin: 0;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0px 0px 86px;
+}
+
+.price__heart {
+    width: 21px;
+    height: 18px;
+    margin: -3px 0px 0px 80px;
+}
+
+.price__price {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 22px;
+    color: #878787;
+    margin: 0;
+    display: flex;
+    margin-top: 25px;
+}
+
+.price__num {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    color: #424242;
+    margin: -3px 0 0px 7px;
+}
