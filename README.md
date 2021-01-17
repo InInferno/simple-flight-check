@@ -1,6 +1,3 @@
-# simple-flight-check
-
-
 # Simple Flight Check
 
 Ссылка: [simple-flight-check](https://ininferno.github.io/simple-flight-check/ "Виджет поиска билетов")
