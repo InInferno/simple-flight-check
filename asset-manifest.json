@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/simple-flight-check/static/css/main.77d2b68f.chunk.css",
+    "main.js": "/simple-flight-check/static/js/main.c2ceedf8.chunk.js",
+    "main.js.map": "/simple-flight-check/static/js/main.c2ceedf8.chunk.js.map",
+    "runtime-main.js": "/simple-flight-check/static/js/runtime-main.d4d83753.js",
+    "runtime-main.js.map": "/simple-flight-check/static/js/runtime-main.d4d83753.js.map",
+    "static/js/2.09728a04.chunk.js": "/simple-flight-check/static/js/2.09728a04.chunk.js",
+    "static/js/2.09728a04.chunk.js.map": "/simple-flight-check/static/js/2.09728a04.chunk.js.map",
+    "static/js/3.1446d8e8.chunk.js": "/simple-flight-check/static/js/3.1446d8e8.chunk.js",
+    "static/js/3.1446d8e8.chunk.js.map": "/simple-flight-check/static/js/3.1446d8e8.chunk.js.map",
+    "index.html": "/simple-flight-check/index.html",
+    "static/css/main.77d2b68f.chunk.css.map": "/simple-flight-check/static/css/main.77d2b68f.chunk.css.map",
+    "static/js/2.09728a04.chunk.js.LICENSE.txt": "/simple-flight-check/static/js/2.09728a04.chunk.js.LICENSE.txt",
+    "static/media/Login.css": "/simple-flight-check/static/media/Roboto-Regular.31012f9b.woff",
+    "static/media/Flying.css": "/simple-flight-check/static/media/wing.5b65f0dd.jpg",
+    "static/media/arrow.9725e5ac.svg": "/simple-flight-check/static/media/arrow.9725e5ac.svg",
+    "static/media/arrowRight.1582dbef.svg": "/simple-flight-check/static/media/arrowRight.1582dbef.svg",
+    "static/media/iconExit.6e45871d.svg": "/simple-flight-check/static/media/iconExit.6e45871d.svg",
+    "static/media/imageFour.f65964c8.jpg": "/simple-flight-check/static/media/imageFour.f65964c8.jpg",
+    "static/media/imageOne.e0a9fc40.jpg": "/simple-flight-check/static/media/imageOne.e0a9fc40.jpg",
+    "static/media/imageThree.627491ab.jpg": "/simple-flight-check/static/media/imageThree.627491ab.jpg",
+    "static/media/imageTwo.a7be6045.jpg": "/simple-flight-check/static/media/imageTwo.a7be6045.jpg",
+    "static/media/like.27d71800.svg": "/simple-flight-check/static/media/like.27d71800.svg",
+    "static/media/likeActive.89fe6427.svg": "/simple-flight-check/static/media/likeActive.89fe6427.svg",
+    "static/media/plane.95545d26.svg": "/simple-flight-check/static/media/plane.95545d26.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4d83753.js",
+    "static/js/2.09728a04.chunk.js",
+    "static/css/main.77d2b68f.chunk.css",
+    "static/js/main.c2ceedf8.chunk.js"
+  ]
+}
